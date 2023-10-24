@@ -1,0 +1,9 @@
+div#sticker{
+
+}
+.stick{
+    position: fixed;
+    top: 0px;
+    z-index: 999999999999;
+}
+p{background: rgb(234, 198, 198);}

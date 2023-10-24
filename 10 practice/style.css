@@ -1,0 +1,10 @@
+.menu{background: green;min-height: 40px;width: 960px;margin: 0 auto;}
+.menu ul{}
+.menu ul li{float: left;list-style-type:none;border-right: 2px solid red;
+border-radius: 5px;border-left: 2px solid red; ;}
+.menu ul li a{padding: 10px 65px;display: block;color:rgb(151, 217, 151);text-decoration: none;}
+.menu ul li a:hover{color: white;}
+.color_fix:hover{
+    background: rgb(157, 192, 54);
+    transition: all 0.5s ease;
+}

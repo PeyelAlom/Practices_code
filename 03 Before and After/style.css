@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 200px;
+}
+h2:before{
+    content: "peyel";
+    background: green;
+    color: white;
+    margin-right: 15px;
+
+
+}
+h2::after{
+    content: "Jisan";
+}
+.mydiv{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 50px;
+}
+.mydiv::before{
+    content: "fast";
+}
+.mydiv::after{
+    content: "last";
+}
