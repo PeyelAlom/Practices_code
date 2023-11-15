@@ -1,0 +1,29 @@
+.container{
+    margin: 0 auto;
+    width: 960px;
+
+}
+.color1{
+    text-align: center;
+    background: green;
+}
+.color2{
+    text-align: center;
+    background: rgb(33, 89, 201);
+}
+.color3{
+    text-align: center;
+    background: rgb(183, 25, 219);
+}
+.color4{
+    text-align: center;
+    background: rgb(200, 89, 58);
+}
+.color5{
+    text-align: center;
+    background: rgb(164, 216, 164);
+}
+.color6{
+    text-align: center;
+    background: rgb(198, 219, 37);
+}
