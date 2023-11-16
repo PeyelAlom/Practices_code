@@ -1,0 +1,19 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.header,.menu,.content,.footer{
+    text-align: center;
+}
+.header{
+    background: rgb(49, 169, 10);
+}
+.menu{
+    background: rgb(42, 108, 221);
+}
+.content{
+    background: rgb(224, 239, 19);
+}
+.footer{
+    background: rgb(106, 216, 198);
+}
