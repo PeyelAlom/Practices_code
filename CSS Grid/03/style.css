@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+}
+#abc1{
+    background: rgb(239, 6, 6);
+}
+#abc2{
+    background: rgb(224, 141, 141);
+}
+#abc3{
+    background: rgb(244, 224, 4);
+}
+#abc4{
+    background: rgb(218, 220, 163);
+}
+#abc5{
+    background: rgb(6, 232, 6);
+}
+#abc6{
+    background: rgb(138, 196, 143);
+}
+#abc7{
+    background: rgb(5, 20, 217);
+}
+#abc8{
+    background: rgb(129, 137, 202);
+}
+#abc9{
+    background: rgb(7, 215, 234);
+}
+#abc10{
+    background: rgb(0, 90, 128);
+}
+
