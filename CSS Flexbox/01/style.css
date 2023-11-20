@@ -1,0 +1,38 @@
+.container{
+    max-width: 450px;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+.h2{
+    font-weight: bold;
+}
+.float{
+    
+}
+main{
+    background-color: aqua;
+    padding: 0.5rem;
+    border: 1px solid red;
+}
+section:first-of-type{
+    background-color: thistle;
+    padding: 0.5rem;
+    border: 1px solid red;
+    
+}
+section:last-of-type{
+    background-color: rgb(212, 31, 212);
+    padding: 0.5rem;
+    border: 1px solid red;
+    
+}
+
+
+.section1{
+    float: left;
+    width: 50%;
+}
+.section2{
+    float: right;
+    width: 50%;
+}
