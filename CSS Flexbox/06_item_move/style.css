@@ -1,0 +1,51 @@
+.container{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    /* align-items: stretch; */
+    align-content: space-between;
+    
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    
+}
+.itemOne,.itemTwo,.itemThree,.itemFour,.itemFive,.itemSix{
+    margin: 10px;
+    width: 100px;
+    
+}
+.itemOne{
+    background-color: brown;
+    order: 1;
+}
+.itemTwo{
+    background-color: aqua;
+    
+}
+.itemThree{
+    background-color: brown;
+    order: 2;
+}
+.itemFour{
+    background-color: aqua;
+    
+}
+.itemFive{
+    background-color: brown;
+    order: 2;
+    
+}
+.itemSix{
+    background-color: aqua;
+
+}
