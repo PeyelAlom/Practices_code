@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+        });
+
+
+    </script>
+    <p>This is our paragraph</p>
+    <p class="demo">I am 18 years old</p>
+    <p>This is our paragraph</p>
+    <p>This is our paragraph</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    
+    <script src="myscript.js"></script>
+</body>
+</html>
