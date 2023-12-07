@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("#demo").click(function(){
+                // $("#demo_p").hide("slow");
+                $("#demo_p").hide(3000);
+            });
+            $("#show").click(function(){
+                // $("#demo_p").show("fast");
+                $("#demo_p").show(2000);
+            });
+        })
+
+
+
+
+    </script>
+    <p id="demo_p">Our costom paragraph</p>
+    <button id="demo">Hide</button>
+    <button id="show">Show</button>
+</body>
+</html>
