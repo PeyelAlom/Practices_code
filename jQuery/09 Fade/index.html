@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("#mybutton").click(function(){
+                $("#div1").fadeToggle(2000);
+                $("#div2").fadeToggle(3000);
+                $("#div3").fadeToggle(4000);
+            });
+        });
+
+
+
+    </script>
+
+
+    <button id="mybutton">Fade In</button>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#mybutton{
+    display: block;
+}
+#div1, #div2, #div3{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    float: left;
+    display: none;
+}
+#div1{
+    background: rgb(20, 39, 20);
+}
+#div2{
+    background: rgb(94, 157, 21);
+}
+#div3{
+    background: rgb(18, 150, 126);
+}
