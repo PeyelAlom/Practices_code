@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(Document).ready(function(){
+            $("#flip").click(function(){
+                 $("#panel").slideToggle(1000);
+            })
+        })
+    </script>
+    
+    <div id="flip">Click to slide</div>
+    <div id="panel">Do you think ITBari has the best Web design bangla tutorial in the world? If yes, then let your friends know about ItBari! We appreciate your sharing.</div>
+    
+</body>
+</html>
