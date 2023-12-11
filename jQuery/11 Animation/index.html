@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("#button").click(function(){
+                $("#demo").animate({
+                    height:'150px',
+                    width:'150px',
+                    left:'100px',
+                    top:'100px',
+
+                });
+            })
+        })
+
+
+    </script>
+    <button id="button">Click me Animate</button>
+    <div id="demo"></div>
+    
+</body>
+</html>
